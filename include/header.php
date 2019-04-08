@@ -15,7 +15,20 @@
 <header>
 
 <div class="container">
-
+<input type='checkbox' id='toggle' style='display:none;' />
+  <label class='toggle-btn toggle-btn__cross' for='toggle'>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </label>
+  <nav>
+    <ul>
+      <li><a href="#">Accueil</a></li>
+      <li><a href="#">À propos</a></li>
+      <li><a href="#">Projets</a></li>
+      <li><a href="#">Contactez-moi</a></li>
+    </ul>
+  </nav>
 </div>
 
 <div class="bottomSvg">
