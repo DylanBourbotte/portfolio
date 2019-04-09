@@ -14,22 +14,29 @@
     
 <header>
 
-<div class="container">
+<div class="container" id='home'>
     <h1 class="title text-left">Bourbotte Dylan</h1>
     <input type='checkbox' id='toggle' style="display:none;"/>
-        <label class='toggle-btn toggle-btn__cross' for='toggle'>
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
+        <label class='toggle-btn toggle-btn__cross' for='toggle' onscroll='myFunction()'>
+            <div class="bar one"></div>
+            <div class="bar two"></div>
+            <div class="bar three"></div>
         </label>
     <nav>
         <ul>
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">À propos</a></li>
-            <li><a href="#">Projets</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#project">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
+</div>
+
+<div class="container home">
+    <div class="row">
+        <div class="col-12"><h1 class="text-center">Développeur Web Junior<span>.</span></h1></div>
+        <div class='col-12 text-center'><a href="#contact" class='btn btn-primary'><i class="fas fa-file-signature"></i>Me contactez</a></div>
+    </div>
 </div>
 
 <div class="bottomSvg">

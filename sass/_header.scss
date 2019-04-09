@@ -125,8 +125,52 @@ cursor:pointer;
 .title {
   font-size: 26px;
   position: relative;
-  padding-top: 1%;
+  padding-top: 1.5%;
   color: $white;
   font-family: $raleway;
   text-transform: capitalize;
+}
+
+
+
+.home {
+  margin-top: 10%;
+  color: $white;
+  font-family: $raleway;
+  font-size: 20px;
+  span {
+    color: rgb(129,162,255);
+  }
+  .btn {
+    margin-top: 1%;
+  }
+  i {
+    margin-right: 15px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .home {
+    margin-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+  .title {
+    padding-top: 2%;
+  }
+  .home {
+    margin-top: 30%;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .title {
+    padding-top: 3%;
+  }
+  .home {
+    margin-top: 40%;
+    }
 }
