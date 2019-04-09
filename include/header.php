@@ -34,9 +34,14 @@
 
 <div class="container home">
     <div class="row">
-        <div class="col-12"><h1 class="text-center">Développeur Web Junior<span>.</span></h1></div>
-        <div class='col-12 text-center'><a href="#contact" class='btn btn-primary'><i class="fas fa-file-signature"></i>Me contactez</a></div>
+        <div class="col-12"><h1 class="text-center">Développeur Web Junior</h1></div>
+        <div class="col-12"><p class="text-center">Découvrez ma passion pour le développement et le monde du digital.</p></div>
+        <div class='col-12 text-center'><a href="#contact" class='btn btn-primary contactBtn'><i class="far fa-paper-plane"></i>Me contactez</a></div>
     </div>
+</div>
+
+<div class="arrow bounce">
+  <a class="fa fa-arrow-down fa-2x" href="#test"></a>
 </div>
 
 <div class="bottomSvg">
@@ -58,3 +63,5 @@
 </svg>
 </div>
 </header>
+
+
